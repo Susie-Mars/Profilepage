@@ -1,0 +1,349 @@
+.nav {
+    background-color: rgb(59, 58, 58);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 30px;
+
+}
+.nav-links {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: right;
+    list-style: none;
+    text-decoration: none;
+
+}
+.home {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+.find {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.btn {
+    background-color: rgb(53, 173, 173);
+    color: white;
+    box-shadow: 3px 4px 4px black;
+}
+.active {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+.container {
+    background-color: white;
+    border: 5px solid rgb(182, 179, 179);
+    margin: 50px;
+    margin-left:100px;
+    margin-top: 75px;
+    height: 450px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.border {
+    background-color: rgb(53, 173, 173);
+    height: 100px;
+    width: 500px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.box {
+    height: 300px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 25px;
+    font-size: large;
+    margin-top: 80px;
+
+}
+.user {
+    position: absolute;
+    top: 200px;
+    left: 75px;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 5px solid rgb(211, 210, 210);
+
+}
+.marker {
+    height: 40px;
+    width: 30px;
+}
+.stats {
+    font-size: medium;
+    font-weight: bold;
+}
+.Master {
+    font-size: medium;
+    font-weight: bold;
+}
+.where {
+    display: flex;
+}
+.gear {
+    height: 30px;
+    width: 30px;
+}
+.edit {
+    font-size: medium;
+    display: flex;
+}
+.seattle {
+    font-size: medium;
+}
+.last {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+.container2 {
+    height: 400px;
+    width: 500px;
+    border: 5px solid rgb(182, 179, 179);
+    margin-top: 50px;
+
+    
+}
+.border2 {
+    height: 100px;
+    width: 500px;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Education {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(211, 210, 210);
+    align-items: center;
+    padding: 20px;
+}
+.left {
+    display: flex;
+    align-items: flex-start;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.text {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.when {
+    color: slategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 25px;
+}
+.box3 {
+    height: 350px;
+    width: 450px;
+    border: 5px solid rgb(182, 179, 179);
+    margin: 50px;
+    margin-top: 25px;
+}
+.requests {
+    height: 100px;
+    width: 450px;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.two {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(211, 210, 210);
+    color: black;
+    align-items: center;
+    margin-left: 25px;
+}
+.conn {
+    color: rgb(211, 210, 210);
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin-left: 10px;
+}
+.todde {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    font-size: larger;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Todd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    font-size: larger;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.accept {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    justify-content: flex-end;
+
+}
+.decline {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    justify-content: flex-end;
+
+}
+.phil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    font-size: larger;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.philk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    font-size: larger;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.connections {
+    width: 450px;
+    height: 100px;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box4 {
+    height: 500px;
+    width: 450px;
+    border: 5px solid  rgb(182, 179, 179);
+    margin: 50px;
+    
+}
+.right {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    flex-direction: column;
+    display: inline;
+}
+.Adrian {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: larger;
+    margin: 10px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.five {
+    height: 40px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid black;
+    align-items: center;
+    background-color: rgb(211, 210, 210);
+    margin-left: 20px;
+
+}
+.yourconn {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(211, 210, 210);
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+.view {
+    height: 150px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+.edit {
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: x-large;
+}
+.Anne {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: larger;
+    margin: 10px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Alayne {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: larger;
+    margin: 10px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Arry {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: larger;
+    margin: 10px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.view {
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+}
+.all {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.Adriand, .Annej, .Alaynet, .Arryy {
+    display: flex;
+    margin-left: 30px;
+}
